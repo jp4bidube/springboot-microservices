@@ -1,0 +1,12 @@
+### PUT request to update an exist patient
+PUT http://localhost:4001/patients/85f52d5c-34ea-4ba5-b96a-034edcbbb2ae
+Content-Type: application/json
+
+{
+  "name": "John Doe updated",
+  "email": "test@teste_updated",
+  "address": "123 main street",
+  "dateOfBirth": "1995-12-11"
+}
+
+###
